@@ -1,1 +1,33 @@
 @use "variables" as *;
+
+.social,
+.header-social-icons,
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  background-color: $usafa-blue;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-social-icons {
+  align-items: center;
+
+  & > i {
+    color: white;
+    padding: 0 20px 0 20px;
+  }
+}
+
+footer {
+  background-color: $usafa-blue;
+  color: $mint-cream;
+  padding: 2rem 0 2rem 0;
+}
+
+.footer-social-icons > i {
+  margin-right: 10px;
+}

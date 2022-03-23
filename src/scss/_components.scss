@@ -1,1 +1,23 @@
 @use "variables" as *;
+
+.logo__img {
+  width: 200px;
+  height: 100px;
+}
+
+.form-name,
+.form-email {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 2;
+  gap: 5px;
+
+  & > label {
+    width: 31px;
+  }
+}
+
+.form-name {
+  margin-bottom: 10px;
+}
