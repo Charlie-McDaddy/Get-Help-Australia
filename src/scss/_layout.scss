@@ -13,6 +13,18 @@
   align-items: center;
 }
 
+.main-nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+
+  &--item {
+    font-size: $normal-font-size;
+    margin-right: 1rem;
+  }
+}
+
 .header-social-icons {
   align-items: center;
 

@@ -1,8 +1,8 @@
 @use "variables" as *;
 
 .logo__img {
-  width: 200px;
-  height: 100px;
+  width: 20rem;
+  height: 10rem;
 }
 
 .form-name,
@@ -11,13 +11,31 @@
   align-items: center;
   justify-content: flex-start;
   line-height: 2;
-  gap: 5px;
+  gap: 0.5rem;
 
   & > label {
-    width: 31px;
+    width: 3.1rem;
   }
 }
 
 .form-name {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: $headlines-font-size;
+  font-weight: $headlines-font-weight;
+  line-height: $headlines-line-height;
+  letter-spacing: $headlines-letter-spacing;
+}
+
+p {
+  font-size: $normal-font-size;
+  font-weight: $normal-font-weight;
+  line-height: $normal-line-height;
+  max-width: $font-max-width;
+}
+
+.list-group-item {
+  font-size: $normal-font-size;
 }
