@@ -43,3 +43,22 @@ footer {
 .footer-social-icons > i {
   margin-right: 10px;
 }
+
+@media screen and (max-width: 900px) {
+  .social,
+  .header-social-icons,
+  .footer-social-icons,
+  .logo {
+    display: block;
+    text-align: center;
+  }
+
+  .main-row {
+    display: block;
+  }
+
+  .main-col-1,
+  .main-col-2 {
+    width: 100%;
+  }
+}
